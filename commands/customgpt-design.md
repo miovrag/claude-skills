@@ -6,7 +6,7 @@ user-invocable: true
 
 # CustomGPT.ai Design System — AI Execution Skill (Strict Mode)
 
-Design system root: `/Users/miodragristovski/Downloads/CustomGPT.ai Design System-2/`
+Design system root: `/Users/miodragristovski/customgpt-design-system/`
 
 ---
 
@@ -15,6 +15,15 @@ Design system root: `/Users/miodragristovski/Downloads/CustomGPT.ai Design Syste
 The design system is the single source of truth. Do not introduce new tokens, modify existing tokens, use raw values, or invent new components. Use the closest existing semantic token.
 
 Token hierarchy: Raw → Semantic → Component → Usage. Never use raw tokens. Prefer component tokens over semantic when available.
+
+**Do not invent:**
+
+- new shadows
+- new gradients
+- new colors
+- new button styles
+- new card styles
+- new form field styles
 
 ---
 
@@ -304,18 +313,18 @@ Each status shadow also has `-sm` and `-lg` variants. Use `shadow-primary` only 
 
 | Asset | Path |
 | --- | --- |
-| CSS tokens | `<root>/colors_and_type.css` |
-| Logo mark | `<root>/assets/logo-48px.svg` |
-| Logo wordmark | `<root>/assets/logo-wordmark.svg` |
-| Dashboard UI kit | `<root>/ui_kits/dashboard/index.html` |
-| Chat UI kit | `<root>/ui_kits/chat/index.html` |
-| Preview cards | `<root>/preview/*.html` |
-| Extended component library | `/Users/miodragristovski/Desktop/settings-panel.html` |
+| CSS tokens | `<root>/tokens/colors_and_type.css` |
+| Logo wordmark (PRIMARY) | `<root>/assets/logo-wordmark.svg` — mark + "CustomGPT.ai" text, all `#7367F0`, 256×39. Default logo for headers, login/auth pages, marketing. Inline the SVG; scale by height (~26–32px in app chrome). |
+| Logo mark (icon only) | `<root>/assets/logo-48px.svg` — use only where the wordmark doesn't fit: favicons, avatars, collapsed sidebar, tight square slots |
+| Dashboard UI kit | — missing; reference projects: ~/vuetify-modal-demo, ~/agent-deploy |
+| Chat UI kit | — missing; reference project: ~/end-user-chat |
+| Preview cards | — missing; token tables in this skill are the reference |
+| Extended component library | `<root>/components/` (production CG wrappers) |
 | Inter variable font | `<root>/fonts/Inter-VariableFont_opsz_wght.ttf` |
 
 Link tokens CSS in any new HTML output:
 ```html
-<link rel="stylesheet" href="/Users/miodragristovski/Downloads/CustomGPT.ai Design System-2/colors_and_type.css">
+<link rel="stylesheet" href="/Users/miodragristovski/customgpt-design-system/tokens/colors_and_type.css">
 ```
 
 **Preview cards:** `brand-mark` · `colors-primary` · `colors-gray` · `colors-semantic` · `colors-opacity` · `colors-gradients` · `type-headings` · `type-body` · `spacing-scale` · `radius-scale` · `shadows` · `iconography` · `components-buttons` · `components-inputs` · `components-badges` · `components-avatars` · `components-cards` · `components-alerts` · `components-chat` · `components-composer`
@@ -487,7 +496,7 @@ export default createVuetify({
 </style>
 ```
 
-### Key SCSS settings (`/Users/miodragristovski/Downloads/vuetify.scss`)
+### Key SCSS settings (`/Users/miodragristovski/customgpt-design-system/vuetify/vuetify.scss`)
 
 ```scss
 $reset: false           // Tailwind coexists
