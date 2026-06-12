@@ -43,6 +43,12 @@ whenever a list/table/grid is in scope.
 | Accessibility (Mike Gifford / CivicActions) | [mgifford/accessibility-skills](https://github.com/mgifford/accessibility-skills) | 27 granular a11y skills: `accessibility-general`, `color-contrast`, `keyboard`, `forms`, `tables`, `tooltips`, `navigation`, `aria-live-regions`, `image-alt-text`, `svg`, `charts-graphs`, `touch-pointer`, `light-dark-mode`, `plain-language`, `content-design`, `manual-testing`, `axe-rules`, `bug-reporting`, `ci-cd`, `audio-video`, `maps`, `mermaid`, `print`, `progressive-enhancement`, `user-personalization`, `anchor-links`, `opquast-digital-quality` |
 | Remotion | [remotion-dev](https://github.com/remotion-dev) via `npx skills` | `remotion-best-practices` |
 | skills.sh | [vercel-labs/skills](https://github.com/vercel-labs/skills) | `find-skills`, `project-kickstart` |
+| Designer skills | [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) | ~93 skills across design-research, design-systems, interaction-design, design-ops, designer-toolkit (critiques, UX laws, tokens, research methods, specs) |
+| PM skills | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 68 skills across product-discovery, product-strategy, execution, data-analytics, market-research, go-to-market, marketing-growth, ai-shipping, toolkit |
+| Animate | [delphi-ai/animate-skill](https://github.com/delphi-ai/animate-skill) | `animate` — React/Next.js animation patterns (Emil Kowalski's course) |
+
+Name collisions: `interview-script` and `summarize-interview` exist in both designer-skills and
+pm-skills — the pm-skills versions (installed later, Mom Test/JTBD-based) are the ones on disk.
 
 Third-party sets are vendored copies — re-installable via `npx skills add <source>`, but tracked
 here so local modifications survive.
