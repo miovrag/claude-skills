@@ -40,6 +40,7 @@ whenever a list/table/grid is in scope.
 | Set | Source | Skills |
 |---|---|---|
 | Layers of Product Design | [jamiemill/layers-skills](https://github.com/jamiemill/layers-skills) | `layers-intro`, `layers-orient`, `layers-domain`, `layers-observed-behaviour`, `layers-user-needs`, `layers-product-strategy`, `layers-conceptual-model`, `layers-interaction-flow`, `layers-surface` |
+| Accessibility (Mike Gifford / CivicActions) | [mgifford/accessibility-skills](https://github.com/mgifford/accessibility-skills) | 27 granular a11y skills: `accessibility-general`, `color-contrast`, `keyboard`, `forms`, `tables`, `tooltips`, `navigation`, `aria-live-regions`, `image-alt-text`, `svg`, `charts-graphs`, `touch-pointer`, `light-dark-mode`, `plain-language`, `content-design`, `manual-testing`, `axe-rules`, `bug-reporting`, `ci-cd`, `audio-video`, `maps`, `mermaid`, `print`, `progressive-enhancement`, `user-personalization`, `anchor-links`, `opquast-digital-quality` |
 | Remotion | [remotion-dev](https://github.com/remotion-dev) via `npx skills` | `remotion-best-practices` |
 | skills.sh | [vercel-labs/skills](https://github.com/vercel-labs/skills) | `find-skills`, `project-kickstart` |
 
