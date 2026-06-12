@@ -46,6 +46,7 @@ whenever a list/table/grid is in scope.
 | Designer skills | [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) | ~93 skills across design-research, design-systems, interaction-design, design-ops, designer-toolkit (critiques, UX laws, tokens, research methods, specs) |
 | PM skills | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 68 skills across product-discovery, product-strategy, execution, data-analytics, market-research, go-to-market, marketing-growth, ai-shipping, toolkit |
 | Animate | [delphi-ai/animate-skill](https://github.com/delphi-ai/animate-skill) | `animate` — React/Next.js animation patterns (Emil Kowalski's course) |
+| Journey Mapping | [cuellarfr/design-skills](https://github.com/cuellarfr/design-skills) | `journey-mapping` — alignment diagrams (CJM, service blueprints, experience/empathy maps, JJG Visual Vocabulary) with references/templates/examples; single skill vendored from the set to avoid name collisions |
 
 Name collisions: `interview-script` and `summarize-interview` exist in both designer-skills and
 pm-skills — the pm-skills versions (installed later, Mom Test/JTBD-based) are the ones on disk.
